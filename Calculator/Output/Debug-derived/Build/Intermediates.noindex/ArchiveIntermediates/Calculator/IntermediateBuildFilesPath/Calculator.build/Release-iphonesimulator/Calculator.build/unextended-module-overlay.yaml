@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/okano/workspace/ios/LoggerClient/Calculator/Output/Debug-derived/Build/Intermediates.noindex/ArchiveIntermediates/Calculator/BuildProductsPath/Release-iphonesimulator/Calculator.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/okano/workspace/ios/LoggerClient/Calculator/Output/Debug-derived/Build/Intermediates.noindex/ArchiveIntermediates/Calculator/IntermediateBuildFilesPath/Calculator.build/Release-iphonesimulator/Calculator.build/unextended-module.modulemap",
+    }]
+  }]
+}

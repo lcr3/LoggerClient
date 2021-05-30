@@ -1,0 +1,75 @@
+{
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "a7cec331ad04275291986352140ac8be0cf92569299d1bab627dfd0140280c60"
+    }
+  ],
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "install",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator14.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "i386",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived/Build/Products",
+      "derivedDataPath" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived",
+      "indexDataStoreFolderPath" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "BUILD_LIBRARY_FOR_DISTRIBUTION" : "YES",
+          "SDKROOT" : "iphonesimulator14.5",
+          "SKIP_INSTALL" : "NO",
+          "TOOLCHAINS" : "com.apple.dt.toolchain.XcodeDefault"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "install",
+          "ASSET_PACK_FOLDER_PATH" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived/Build/Intermediates.noindex/ArchiveIntermediates/Logger/InstallationBuildProductsLocation/OnDemandResources",
+          "BITCODE_GENERATION_MODE" : "bitcode",
+          "DEPLOYMENT_LOCATION" : "YES",
+          "DEPLOYMENT_POSTPROCESSING" : "YES",
+          "DSTROOT" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived/Build/Intermediates.noindex/ArchiveIntermediates/Logger/InstallationBuildProductsLocation",
+          "EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE" : "NO",
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ENABLE_DATA_STORE" : "NO",
+          "MESSAGES_APPLICATION_EXTENSION_SUPPORT_FOLDER_PATH" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived/Build/Intermediates.noindex/ArchiveIntermediates/Logger/BuildProductsPath/MessagesApplicationExtensionSupport",
+          "MESSAGES_APPLICATION_SUPPORT_FOLDER_PATH" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived/Build/Intermediates.noindex/ArchiveIntermediates/Logger/BuildProductsPath/MessagesApplicationSupport",
+          "OBJROOT" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived/Build/Intermediates.noindex/ArchiveIntermediates/Logger/IntermediateBuildFilesPath",
+          "SHARED_PRECOMPS_DIR" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived/Build/Intermediates.noindex/ArchiveIntermediates/Logger/PrecompiledHeaders",
+          "SWIFT_STDLIB_TOOL_UNSIGNED_DESTINATION_DIR" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived/Build/Intermediates.noindex/ArchiveIntermediates/Logger/BuildProductsPath/SwiftSupport",
+          "SYMROOT" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived/Build/Intermediates.noindex/ArchiveIntermediates/Logger/BuildProductsPath",
+          "WATCHKIT_2_SUPPORT_FOLDER_PATH" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived/Build/Intermediates.noindex/ArchiveIntermediates/Logger/BuildProductsPath/WatchKitSupport2",
+          "WATCHKIT_SUPPORT_FOLDER_PATH" : "/Users/okano/workspace/ios/LoggerClient/Logger/Output/Debug-derived/Build/Intermediates.noindex/ArchiveIntermediates/Logger/BuildProductsPath/WatchKitSupport"
+        }
+      },
+      "toolchainOverride" : "com.apple.dt.toolchain.XcodeDefault"
+    }
+  },
+  "schemeCommand" : "archive",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

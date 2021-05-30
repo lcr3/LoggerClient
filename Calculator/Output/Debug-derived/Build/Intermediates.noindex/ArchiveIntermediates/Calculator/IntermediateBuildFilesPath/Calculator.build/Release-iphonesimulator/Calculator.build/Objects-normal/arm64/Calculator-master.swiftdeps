@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
+options: "2da5a9e5af61c62e988206c2c560bb3c"
+build_time: [1622340954, 496286000]
+inputs:
+  "/Users/okano/workspace/ios/LoggerClient/Calculator/Calculator/Calculator.swift": [9223372036, 854775807]

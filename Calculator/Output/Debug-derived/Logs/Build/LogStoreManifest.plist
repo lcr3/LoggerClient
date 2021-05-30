@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>6CF0A9EF-C1BC-43E3-B070-E0C057EBA5A6</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6CF0A9EF-C1BC-43E3-B070-E0C057EBA5A6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Calculator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Calculator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archiving project Calculator with scheme Calculator</string>
+			<key>timeStartedRecording</key>
+			<real>644033749.60235298</real>
+			<key>timeStoppedRecording</key>
+			<real>644033752.04154205</real>
+			<key>title</key>
+			<string>Archiving project Calculator with scheme Calculator</string>
+			<key>uniqueIdentifier</key>
+			<string>6CF0A9EF-C1BC-43E3-B070-E0C057EBA5A6</string>
+		</dict>
+		<key>CD34405C-9522-49DF-86E6-9FA5D3C2D395</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CD34405C-9522-49DF-86E6-9FA5D3C2D395.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Calculator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Calculator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archiving project Calculator with scheme Calculator</string>
+			<key>timeStartedRecording</key>
+			<real>644033753.91700804</real>
+			<key>timeStoppedRecording</key>
+			<real>644033756.486202</real>
+			<key>title</key>
+			<string>Archiving project Calculator with scheme Calculator</string>
+			<key>uniqueIdentifier</key>
+			<string>CD34405C-9522-49DF-86E6-9FA5D3C2D395</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
