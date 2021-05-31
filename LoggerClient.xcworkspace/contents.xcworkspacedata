@@ -4,10 +4,4 @@
    <FileRef
       location = "group:LoggerClient.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:Logger/Logger.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Calculator/Calculator.xcodeproj">
-   </FileRef>
 </Workspace>

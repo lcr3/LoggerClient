@@ -13,8 +13,8 @@
 		2992AE7626623D72009C2AA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2992AE7526623D72009C2AA6 /* Preview Assets.xcassets */; };
 		2992AE8126623D73009C2AA6 /* LoggerClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2992AE8026623D73009C2AA6 /* LoggerClientTests.swift */; };
 		2992AE8C26623D73009C2AA6 /* LoggerClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2992AE8B26623D73009C2AA6 /* LoggerClientUITests.swift */; };
-		2992AF01266323DD009C2AA6 /* Logger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2992AF00266323DD009C2AA6 /* Logger.framework */; };
-		2992AF02266323DD009C2AA6 /* Logger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2992AF00266323DD009C2AA6 /* Logger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2992AF2826650AB5009C2AA6 /* Logger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2992AF2726650AB5009C2AA6 /* Logger.framework */; };
+		2992AF2926650AB5009C2AA6 /* Logger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2992AF2726650AB5009C2AA6 /* Logger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2992AEF9266323BF009C2AA6 /* Embed Frameworks */ = {
+		2992AF2A26650AB5009C2AA6 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2992AF02266323DD009C2AA6 /* Logger.framework in Embed Frameworks */,
+				2992AF2926650AB5009C2AA6 /* Logger.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +61,7 @@
 		2992AE8726623D73009C2AA6 /* LoggerClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoggerClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2992AE8B26623D73009C2AA6 /* LoggerClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerClientUITests.swift; sourceTree = "<group>"; };
 		2992AE8D26623D73009C2AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2992AF00266323DD009C2AA6 /* Logger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Logger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2992AF2726650AB5009C2AA6 /* Logger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Logger.framework; path = LoggerClient/Logger.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2992AF01266323DD009C2AA6 /* Logger.framework in Frameworks */,
+				2992AF2826650AB5009C2AA6 /* Logger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +152,7 @@
 		2992AE9926623DA8009C2AA6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2992AF00266323DD009C2AA6 /* Logger.framework */,
+				2992AF2726650AB5009C2AA6 /* Logger.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 				2992AE6726623D6F009C2AA6 /* Sources */,
 				2992AE6826623D6F009C2AA6 /* Frameworks */,
 				2992AE6926623D6F009C2AA6 /* Resources */,
-				2992AEF9266323BF009C2AA6 /* Embed Frameworks */,
+				2992AF2A26650AB5009C2AA6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

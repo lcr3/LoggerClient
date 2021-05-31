@@ -72,6 +72,7 @@
 				2992AEB426624236009C2AA6 /* Calculator */,
 				2992AEBF26624236009C2AA6 /* CalculatorTests */,
 				2992AEB326624236009C2AA6 /* Products */,
+				2992AF1C2664FAB8009C2AA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +102,13 @@
 				2992AEC226624236009C2AA6 /* Info.plist */,
 			);
 			path = CalculatorTests;
+			sourceTree = "<group>";
+		};
+		2992AF1C2664FAB8009C2AA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
