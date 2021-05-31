@@ -1,0 +1,11 @@
+framework module Calculator {
+  umbrella header "Calculator.h"
+
+  export *
+  module * { export * }
+}
+
+module Calculator.Swift {
+    header "Calculator-Swift.h"
+    requires objc
+}

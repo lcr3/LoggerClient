@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -25,6 +25,8 @@
 		2992AE5526623C2F009C2AA6 /* LoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2992AE5426623C2F009C2AA6 /* LoggerTests.swift */; };
 		2992AE5726623C2F009C2AA6 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2992AE4926623C2F009C2AA6 /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2992AF042663242C009C2AA6 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2992AF032663242C009C2AA6 /* Logger.swift */; };
+		2992AF2526650A35009C2AA6 /* Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2992AF2426650A35009C2AA6 /* Calculator.framework */; platformFilter = ios; };
+		2992AF2626650A35009C2AA6 /* Calculator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2992AF2426650A35009C2AA6 /* Calculator.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2992AF2626650A35009C2AA6 /* Calculator.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,6 +61,7 @@
 		2992AE5426623C2F009C2AA6 /* LoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerTests.swift; sourceTree = "<group>"; };
 		2992AE5626623C2F009C2AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2992AF032663242C009C2AA6 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		2992AF2426650A35009C2AA6 /* Calculator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Calculator.framework; path = Logger/Calculator.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2992AF2526650A35009C2AA6 /* Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +125,7 @@
 		2992AED326624337009C2AA6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2992AF2426650A35009C2AA6 /* Calculator.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -414,6 +420,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Logger",
+				);
 				INFOPLIST_FILE = Logger/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -441,6 +451,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Logger",
+				);
 				INFOPLIST_FILE = Logger/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
